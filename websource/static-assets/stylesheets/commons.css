@@ -1,0 +1,47 @@
+:root {
+    --zero: 0px;
+    --vw100: 100vw;
+    --vh100: 100vh;
+    --hidden: hidden;
+}
+
+.m0 {
+    margin: var(--zero);
+}
+
+.w100vw {
+    width: var(--vw100);
+}
+
+.h100vh {
+    height: var(--vh100);
+}
+
+.max-w100vw {
+    max-width: var(--vw100);
+    overflow-x: var(--hidden);
+}
+
+.min-h100vh {
+    min-height: var(--vh100);
+}
+
+.fixed {
+    position: fixed;
+}
+
+.top {
+    top: var(--zero);
+}
+
+.right {
+    right: var(--zero);
+}
+
+.bottom {
+    bottom: var(--zero);
+}
+
+.left {
+    left: var(--zero);
+}
