@@ -3,6 +3,11 @@
     --vw100: 100vw;
     --vh100: 100vh;
     --hidden: hidden;
+    --header: 2.5rem;
+    --subheader: 2rem;
+    --important: 1.5rem;
+    --paragraph: 1rem;
+    --subparagraph: 0.75rem;
 }
 
 .m0 {
@@ -44,4 +49,32 @@
 
 .left {
     left: var(--zero);
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+.kaushan {
+    font-family: "Kaushan Script", cursive;
+}
+
+.header {
+    font-size: var(--header);
+}
+
+.subheader {
+    font-size: var(--subheader);
+}
+
+.important {
+    font-size: var(--important);
+}
+
+.paragraph {
+    font-size: var(--paragraph);
+}
+
+.subparagraph {
+    font-size: var(--subparagraph);
 }
