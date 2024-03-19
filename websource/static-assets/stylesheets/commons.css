@@ -78,3 +78,19 @@
 .subparagraph {
     font-size: var(--subparagraph);
 }
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.vcenter {
+    align-items: center;
+}
+
+.hcenter {
+    justify-content: center;
+}
